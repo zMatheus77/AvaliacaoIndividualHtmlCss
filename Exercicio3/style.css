@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fff;
+    padding: 2rem;
+}
+
+.container{
+    width: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    background-color: #000000;
+    height: 50px;
+    width: 100%;
+}
+
+.meio{
+    display: flex;
+    flex-direction: row;
+}
+
+.sidebar{
+    background-color: #f4a7b9;
+    width: 100px;
+    min-height: 300px;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.principal{
+    background-color: #e8dca0;
+    flex: 1;
+    min-height: 240px;
+}
+
+.rodape-meio{
+    background-color: #b5783a;
+    height: 60px;
+}
