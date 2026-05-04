@@ -1,0 +1,21 @@
+img{
+    width: 20rem;
+}
+
+.butao{
+    background-color: rgb(133, 209, 224);
+    font-size: x-large;
+    color: rgb(0, 0, 0);
+    width: 8rem;
+    height: 3.5rem;
+    border-radius: 20px;
+}
+
+.preco{
+    font-size: large;
+}
+
+#card{
+    border: 2px solid black;
+    padding: 1rem;
+}
